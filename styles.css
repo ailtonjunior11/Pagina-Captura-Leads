@@ -132,3 +132,50 @@ form h2 span {
     font-weight: 700;
     cursor: pointer;
 }
+
+@media screen and (max-width: 840px) {
+
+    .flex {
+
+        flex-direction: column;
+    }
+
+    .txt-leads {
+
+        margin-top: 90%;
+    }
+
+    .txt-leads h1 {
+
+        font-size: 1.2em;
+        line-height: 23px;
+    }
+
+    .txt-leads h1 span {
+
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+
+    .txt-leads img {
+
+        width: 250px;
+        margin: 20px 0;
+    }
+
+    .txt-leads p {
+
+        line-height: 25px;
+        margin-bottom: 25px;
+    }
+
+    .txt-leads p span {
+
+        font-size: 1.4em;
+    }
+
+    form {
+
+        margin-bottom: 30px;
+    }
+}
